@@ -25,14 +25,16 @@
 body {
   font-family: SF Pro Display, sans-serif;
   font-style: normal;
+  background: #E5E5E5;
 }
 
 /* header */
 
 .header {
   background: #FA8C16;
-  filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.15));
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
   padding: 20px 0;
+  margin-bottom: 30px;
 }
 
 .header-wrapper {
@@ -104,9 +106,6 @@ body {
   color: #BFBFBF;
 }
 
-
-
-
 .search-button {
   position: absolute;
   display: flex;
@@ -120,3 +119,133 @@ body {
   background-color: #FFFFFF;
   cursor: pointer;
 }
+
+/* main */
+
+.content {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+.posts {
+  max-width: 800px;
+  margin-bottom: 95px;
+}
+
+.post-body {
+  padding: 35px 35px 0 35px;
+}
+
+.post {
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  margin-bottom: 30px;
+}
+
+.post-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.post-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #262626;
+  margin-bottom: 10px;
+}
+
+.tags {
+  margin-bottom: 22px;
+}
+
+.tag {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #BFBFBF;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FAFAFA;
+  border-top: 1px solid #E8E8E8;
+  padding: 13px 35px;
+}
+
+.post-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.post-button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #8C8C8C;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.post-button .icon {
+  fill: #8C8C8C;
+}
+
+.likes-counter,
+.comments-counter {
+  margin-left: 8px;
+}
+
+.post-author {
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+
+.author-about {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-username {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  color: #8C8C8C;
+  text-decoration: none;
+}
+
+.post-time {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #BFBFBF;
+}
+
+.author-avatar {
+  width: 34px;
+  height: 34px;
+  margin-left: 10px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+/* sidebar */
+
+.sidebar {}
