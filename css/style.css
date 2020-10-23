@@ -462,6 +462,42 @@ body {
   margin-right: 10px;
 }
 
+.add-title::-webkit-input-placeholder {
+  color: #000000;
+  font-weight: 600;
+}
+
+.add-title::-moz-placeholder {
+  color: #000000;
+  font-weight: 600;
+}
+
+.add-title:-ms-input-placeholder {
+  color: #000000;
+  font-weight: 600;
+}
+
+.add-title:-moz-placeholder {
+  color: #000000;
+  font-weight: 600;
+}
+
+.add-text::-webkit-input-placeholder {
+  color: #595959;
+}
+
+.add-text::-moz-placeholder {
+  color: #595959;
+}
+
+.add-text:-ms-input-placeholder {
+  color: #595959;
+}
+
+.add-text:-moz-placeholder {
+  color: #595959;
+}
+
 @media (max-width: 992px) {
   .header {
     position: fixed;
